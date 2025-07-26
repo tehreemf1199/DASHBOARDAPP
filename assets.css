@@ -1,0 +1,23 @@
+/* Light mode background */
+.light-mode {
+    background: linear-gradient(to bottom right, #f7f9fa, #e2ecf6);
+    color: #000;
+    padding: 15px;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Dark mode background */
+.dark-mode {
+    background: linear-gradient(to bottom right, #111, #222);
+    color: #fff;
+    padding: 15px;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Make charts responsive */
+.js-plotly-plot {
+    width: 100% !important;
+    height: auto !important;
+}
